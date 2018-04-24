@@ -37,7 +37,7 @@ class physicsQuestionTwo : AppCompatActivity() {
             submitMathTwo.setOnClickListener{
                 val intent = Intent(this, PhysicsAnswer::class.java)
                 intent.putExtra("FinalAnswer", finalAnswer)
-                intent.putExtra("Right", intent.extras.getInt("Right"))
+                intent.putExtra("Right", right)
                 intent.putExtra("NumQuestions", numQuestions)
                 intent.putExtra("SelectedAnswer", selectedAnswer)
                 startActivity(intent)

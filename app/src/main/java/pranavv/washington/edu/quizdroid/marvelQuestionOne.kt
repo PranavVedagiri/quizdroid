@@ -38,6 +38,7 @@ class marvelQuestionOne : AppCompatActivity() {
             submitMathOne.setOnClickListener{
                 val intent = Intent(this, MarvelAnswer::class.java)
                 intent.putExtra("FinalAnswer", finalAnswer)
+                intent.putExtra("Right", right)
                 intent.putExtra("NumQuestions", numQuestions)
                 intent.putExtra("SelectedAnswer", selectedAnswer)
                 startActivity(intent)
