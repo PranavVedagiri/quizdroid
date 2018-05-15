@@ -1,8 +1,7 @@
 package pranavv.washington.edu.quizdroid
 
-class Top(title: String, short: String, long: String, questions: Array<Quiz>){
+class Top(title: String, long: String, questions: ArrayList<Quiz>){
     private val title = title
-    private val short = short
     private val long = long
     private val questions = questions
 
@@ -10,15 +9,11 @@ class Top(title: String, short: String, long: String, questions: Array<Quiz>){
         return this.title
     }
 
-    fun getShortDescription():String {
-        return this.short
-    }
-
     fun getLongDescription():String {
         return this.long
     }
 
-    fun getQuestions() : Array<Quiz> {
+    fun getQuestions() : ArrayList<Quiz> {
         return this.questions
     }
 }

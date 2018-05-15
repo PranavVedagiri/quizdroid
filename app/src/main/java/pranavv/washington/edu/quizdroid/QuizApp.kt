@@ -10,7 +10,7 @@ class QuizApp :  Application(), TopicRepository {
         Log.d("QuizApp", "QuizApp Created")
     }
 
-    override fun getTopics(): Array<Top>{
+    override fun getTopics(): ArrayList<Top>{
         return trc.getTopics()
     }
 
