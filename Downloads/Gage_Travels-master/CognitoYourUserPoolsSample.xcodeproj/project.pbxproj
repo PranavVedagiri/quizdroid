@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1044FAFE0011B242D74B540F /* Pods_CognitoYourUserPoolsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8BB38FA3839A5239BD9932 /* Pods_CognitoYourUserPoolsSample.framework */; };
+		17FC2F801E258FC500174015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F7F1E258FC500174015 /* AppDelegate.swift */; };
+		17FC2F851E258FC500174015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F831E258FC500174015 /* Main.storyboard */; };
+		17FC2F871E258FC500174015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F861E258FC500174015 /* Assets.xcassets */; };
+		17FC2F8A1E258FC500174015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F881E258FC500174015 /* LaunchScreen.storyboard */; };
+		17FC2F921E25908D00174015 /* CognitoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F911E25908D00174015 /* CognitoLogo.png */; };
+		17FC2F951E2590D800174015 /* MFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F941E2590D800174015 /* MFAViewController.xib */; };
+		17FC2F971E25928900174015 /* MFAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F961E25928900174015 /* MFAViewController.swift */; };
+		17FC2F991E25940900174015 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F981E25940900174015 /* SignInViewController.swift */; };
+		17FC2F9B1E259E0500174015 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F9A1E259E0500174015 /* Constants.swift */; };
+		17FC2F9D1E259E5D00174015 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F9C1E259E5D00174015 /* SignUpViewController.swift */; };
+		17FC2F9F1E259F3200174015 /* ConfirmSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F9E1E259F3200174015 /* ConfirmSignUpViewController.swift */; };
+		17FC2FA11E25A25900174015 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2FA01E25A25900174015 /* ForgotPasswordViewController.swift */; };
+		17FC2FA31E25A5D000174015 /* ConfirmForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2FA21E25A5D000174015 /* ConfirmForgotPasswordViewController.swift */; };
+		17FC2FA51E25A77600174015 /* UserDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2FA41E25A77600174015 /* UserDetailTableViewController.swift */; };
+		17FC2FA71E25A9A200174015 /* DevicesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2FA61E25A9A200174015 /* DevicesDetailTableViewController.swift */; };
+		698BE973209F81BB007C778E /* NewTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BE972209F81BB007C778E /* NewTrip.swift */; };
+		698BE975209F81D2007C778E /* CreatedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BE974209F81D2007C778E /* CreatedList.swift */; };
+		698BE977209FC4CA007C778E /* OrganizePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BE976209FC4CA007C778E /* OrganizePlanViewController.swift */; };
+		698BE97B20A0025E007C778E /* InterestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BE97A20A0025E007C778E /* InterestTableViewCell.swift */; };
+		698BE97D20A002AB007C778E /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BE97C20A002AB007C778E /* InterestViewController.swift */; };
+		698BE97F20A0408B007C778E /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BE97E20A0408B007C778E /* Review.swift */; };
+		698BE98120A042B8007C778E /* InterestPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BE98020A042B8007C778E /* InterestPlaces.swift */; };
+		69ED008E209F7B7C00730677 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED008D209F7B7C00730677 /* NavigationViewController.swift */; };
+		69F30D02209C2730002665B7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F30D01209C2730002665B7 /* ListViewController.swift */; };
+		9124DCD1209992AF003F6F4B /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124DCD0209992AF003F6F4B /* UserDetailTableViewCell.swift */; };
+		9124DCD32099A7A8003F6F4B /* ListPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124DCD22099A7A8003F6F4B /* ListPlaces.swift */; };
+		9137A32B2098632F0026AA7D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9137A32A2098632F0026AA7D /* Fonts */; };
+		9137A32D209864DA0026AA7D /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137A32C209864DA0026AA7D /* ListTableViewCell.swift */; };
+		9137A32F20986A700026AA7D /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137A32E20986A700026AA7D /* ReviewTableViewCell.swift */; };
+		FA20834C2064592A0021F3D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2083482064592A0021F3D2 /* Extensions.swift */; };
+		FA20834E206459450021F3D2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20834D206459450021F3D2 /* HomeController.swift */; };
+		FA2083502064596B0021F3D2 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20834F2064596A0021F3D2 /* AccountController.swift */; };
+		FA20835620645B820021F3D2 /* Account+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20835520645B820021F3D2 /* Account+extension.swift */; };
+		FA20835B206474BB0021F3D2 /* GAGETripPlannerApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA208358206474B90021F3D2 /* GAGETripPlannerApiClient.swift */; };
+		FA20835C206474BB0021F3D2 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA208359206474BA0021F3D2 /* Empty.swift */; };
+		FA80BBF6208C2718006AA7EE /* option1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA80BBF5208C2712006AA7EE /* option1.png */; };
+		FA80BBF8208C2723006AA7EE /* option2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA80BBF7208C271E006AA7EE /* option2.png */; };
+		FA80BC02208DA17B006AA7EE /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA80BC01208DA179006AA7EE /* bar.png */; };
+		FA80BC04208DA2BF006AA7EE /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80BC03208DA2BF006AA7EE /* ReviewViewController.swift */; };
+		FA80BC13208DAFB8006AA7EE /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = FA80BC12208DAFB8006AA7EE /* stars.png */; };
+		FA85C79E2071E14B00A774F6 /* pike.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85C79D2071E14A00A774F6 /* pike.png */; };
+		FA85C7A22071E16100A774F6 /* spaceNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85C7A12071E16000A774F6 /* spaceNeedle.png */; };
+		FA8D568D2078A5BD00992294 /* Map View.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8D568C2078A5BC00992294 /* Map View.png */; };
+		FA8D568F2078A5D500992294 /* organizew.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8D568E2078A5CF00992294 /* organizew.png */; };
+		FA8D56912078A71600992294 /* organizeandplan.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8D56902078A70F00992294 /* organizeandplan.png */; };
+		FAB25936205FABDC000C0383 /* portland.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB25933205FABDB000C0383 /* portland.png */; };
+		FAB25937205FABDC000C0383 /* seattle.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB25934205FABDB000C0383 /* seattle.png */; };
+		FAB25938205FABDC000C0383 /* tacoma.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB25935205FABDB000C0383 /* tacoma.png */; };
+		FAB2593A205FAC35000C0383 /* GageLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB25939205FAC2E000C0383 /* GageLogo.png */; };
+		FAB2593C205FADE5000C0383 /* MapController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2593B205FADE4000C0383 /* MapController+extension.swift */; };
+		FAB2593E205FADF4000C0383 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2593D205FADF3000C0383 /* MapController.swift */; };
+		FAB813062078453500E01E81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB813022078453400E01E81 /* User.swift */; };
+		FAB813072078453500E01E81 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB813032078453400E01E81 /* Place.swift */; };
+		FAB813082078453500E01E81 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB813042078453400E01E81 /* Itinerary.swift */; };
+		FAB813152078457E00E01E81 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8130C2078457D00E01E81 /* MenuBar.swift */; };
+		FAB813162078457E00E01E81 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8130D2078457D00E01E81 /* Cell.swift */; };
+		FAB8131A2078457E00E01E81 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB813112078457D00E01E81 /* MenuCell.swift */; };
+		FAB8131B2078457E00E01E81 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB813122078457D00E01E81 /* PlaceCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1723F26766EBE8129706C034 /* Pods-CognitoYourUserPoolsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoYourUserPoolsSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoYourUserPoolsSample/Pods-CognitoYourUserPoolsSample.release.xcconfig"; sourceTree = "<group>"; };
+		17FC2F7C1E258FC500174015 /* CognitoYourUserPoolsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitoYourUserPoolsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FC2F7F1E258FC500174015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17FC2F841E258FC500174015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17FC2F861E258FC500174015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17FC2F891E258FC500174015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17FC2F8B1E258FC500174015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FC2F911E25908D00174015 /* CognitoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CognitoLogo.png; sourceTree = "<group>"; };
+		17FC2F941E2590D800174015 /* MFAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAViewController.xib; sourceTree = "<group>"; };
+		17FC2F961E25928900174015 /* MFAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFAViewController.swift; sourceTree = "<group>"; };
+		17FC2F981E25940900174015 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		17FC2F9A1E259E0500174015 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		17FC2F9C1E259E5D00174015 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		17FC2F9E1E259F3200174015 /* ConfirmSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewController.swift; sourceTree = "<group>"; };
+		17FC2FA01E25A25900174015 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		17FC2FA21E25A5D000174015 /* ConfirmForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		17FC2FA41E25A77600174015 /* UserDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewController.swift; sourceTree = "<group>"; };
+		17FC2FA61E25A9A200174015 /* DevicesDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesDetailTableViewController.swift; sourceTree = "<group>"; };
+		480919D75A1E3B70A358631F /* Pods-CognitoYourUserPoolsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoYourUserPoolsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoYourUserPoolsSample/Pods-CognitoYourUserPoolsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		698BE972209F81BB007C778E /* NewTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrip.swift; sourceTree = "<group>"; };
+		698BE974209F81D2007C778E /* CreatedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedList.swift; sourceTree = "<group>"; };
+		698BE976209FC4CA007C778E /* OrganizePlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizePlanViewController.swift; sourceTree = "<group>"; };
+		698BE97A20A0025E007C778E /* InterestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestTableViewCell.swift; sourceTree = "<group>"; };
+		698BE97C20A002AB007C778E /* InterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
+		698BE97E20A0408B007C778E /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		698BE98020A042B8007C778E /* InterestPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPlaces.swift; sourceTree = "<group>"; };
+		69ED008D209F7B7C00730677 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		69F30D01209C2730002665B7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9124DCD0209992AF003F6F4B /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		9124DCD22099A7A8003F6F4B /* ListPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlaces.swift; sourceTree = "<group>"; };
+		9137A32A2098632F0026AA7D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		9137A32C209864DA0026AA7D /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		9137A32E20986A700026AA7D /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		FA2083482064592A0021F3D2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA20834D206459450021F3D2 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FA20834F2064596A0021F3D2 /* AccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		FA20835520645B820021F3D2 /* Account+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Account+extension.swift"; sourceTree = "<group>"; };
+		FA208357206474B90021F3D2 /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSApiGatewayBridge.h; sourceTree = "<group>"; };
+		FA208358206474B90021F3D2 /* GAGETripPlannerApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAGETripPlannerApiClient.swift; sourceTree = "<group>"; };
+		FA208359206474BA0021F3D2 /* Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		FA20835A206474BA0021F3D2 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		FA80BBF5208C2712006AA7EE /* option1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = option1.png; sourceTree = "<group>"; };
+		FA80BBF7208C271E006AA7EE /* option2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = option2.png; sourceTree = "<group>"; };
+		FA80BC01208DA179006AA7EE /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		FA80BC03208DA2BF006AA7EE /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		FA80BC06208DA2E6006AA7EE /* labelbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = labelbar.png; sourceTree = "<group>"; };
+		FA80BC07208DA2E6006AA7EE /* chihuly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chihuly.png; sourceTree = "<group>"; };
+		FA80BC08208DA2E9006AA7EE /* sam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sam.png; sourceTree = "<group>"; };
+		FA80BC12208DAFB8006AA7EE /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars.png; sourceTree = "<group>"; };
+		FA85C79D2071E14A00A774F6 /* pike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pike.png; sourceTree = "<group>"; };
+		FA85C7A12071E16000A774F6 /* spaceNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceNeedle.png; sourceTree = "<group>"; };
+		FA8D568C2078A5BC00992294 /* Map View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map View.png"; sourceTree = "<group>"; };
+		FA8D568E2078A5CF00992294 /* organizew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = organizew.png; sourceTree = "<group>"; };
+		FA8D56902078A70F00992294 /* organizeandplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = organizeandplan.png; sourceTree = "<group>"; };
+		FAB25933205FABDB000C0383 /* portland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portland.png; sourceTree = "<group>"; };
+		FAB25934205FABDB000C0383 /* seattle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seattle.png; sourceTree = "<group>"; };
+		FAB25935205FABDB000C0383 /* tacoma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tacoma.png; sourceTree = "<group>"; };
+		FAB25939205FAC2E000C0383 /* GageLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GageLogo.png; sourceTree = "<group>"; };
+		FAB2593B205FADE4000C0383 /* MapController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapController+extension.swift"; sourceTree = "<group>"; };
+		FAB2593D205FADF3000C0383 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		FAB813022078453400E01E81 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAB813032078453400E01E81 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FAB813042078453400E01E81 /* Itinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		FAB8130C2078457D00E01E81 /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		FAB8130D2078457D00E01E81 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		FAB813112078457D00E01E81 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		FAB813122078457D00E01E81 /* PlaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		FE8BB38FA3839A5239BD9932 /* Pods_CognitoYourUserPoolsSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CognitoYourUserPoolsSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17FC2F791E258FC500174015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1044FAFE0011B242D74B540F /* Pods_CognitoYourUserPoolsSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17FC2F731E258FC500174015 = {
+			isa = PBXGroup;
+			children = (
+				17FC2F7E1E258FC500174015 /* CognitoYourUserPoolsSample */,
+				17FC2F7D1E258FC500174015 /* Products */,
+				8F9197A8CB32C199FD65DC17 /* Pods */,
+				ADE7FB88EA53AABB5B64F4E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17FC2F7D1E258FC500174015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17FC2F7C1E258FC500174015 /* CognitoYourUserPoolsSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17FC2F7E1E258FC500174015 /* CognitoYourUserPoolsSample */ = {
+			isa = PBXGroup;
+			children = (
+				FA20835A206474BA0021F3D2 /* Bridging_Header.h */,
+				9137A32920985E7F0026AA7D /* Controller */,
+				FA2083442064592A0021F3D2 /* Model */,
+				FAB8130A2078457D00E01E81 /* View */,
+				17FC2F8B1E258FC500174015 /* Info.plist */,
+				17FC2F931E25909300174015 /* Supporting Files */,
+			);
+			path = CognitoYourUserPoolsSample;
+			sourceTree = "<group>";
+		};
+		17FC2F931E25909300174015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9137A32A2098632F0026AA7D /* Fonts */,
+				17FC2F911E25908D00174015 /* CognitoLogo.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F9197A8CB32C199FD65DC17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				480919D75A1E3B70A358631F /* Pods-CognitoYourUserPoolsSample.debug.xcconfig */,
+				1723F26766EBE8129706C034 /* Pods-CognitoYourUserPoolsSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9137A32920985E7F0026AA7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA80BC03208DA2BF006AA7EE /* ReviewViewController.swift */,
+				698BE976209FC4CA007C778E /* OrganizePlanViewController.swift */,
+				17FC2F961E25928900174015 /* MFAViewController.swift */,
+				FA20834D206459450021F3D2 /* HomeController.swift */,
+				FA20835520645B820021F3D2 /* Account+extension.swift */,
+				FA20834F2064596A0021F3D2 /* AccountController.swift */,
+				FAB2593D205FADF3000C0383 /* MapController.swift */,
+				17FC2F981E25940900174015 /* SignInViewController.swift */,
+				17FC2F9C1E259E5D00174015 /* SignUpViewController.swift */,
+				17FC2F9E1E259F3200174015 /* ConfirmSignUpViewController.swift */,
+				17FC2FA01E25A25900174015 /* ForgotPasswordViewController.swift */,
+				69F30D01209C2730002665B7 /* ListViewController.swift */,
+				17FC2FA21E25A5D000174015 /* ConfirmForgotPasswordViewController.swift */,
+				17FC2FA41E25A77600174015 /* UserDetailTableViewController.swift */,
+				17FC2FA61E25A9A200174015 /* DevicesDetailTableViewController.swift */,
+				698BE97C20A002AB007C778E /* InterestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ADE7FB88EA53AABB5B64F4E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BB38FA3839A5239BD9932 /* Pods_CognitoYourUserPoolsSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2083442064592A0021F3D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17FC2F7F1E258FC500174015 /* AppDelegate.swift */,
+				17FC2F9A1E259E0500174015 /* Constants.swift */,
+				FAB2593B205FADE4000C0383 /* MapController+extension.swift */,
+				FA208357206474B90021F3D2 /* AWSApiGatewayBridge.h */,
+				FA208359206474BA0021F3D2 /* Empty.swift */,
+				FA208358206474B90021F3D2 /* GAGETripPlannerApiClient.swift */,
+				FAB813042078453400E01E81 /* Itinerary.swift */,
+				FAB813032078453400E01E81 /* Place.swift */,
+				FAB813022078453400E01E81 /* User.swift */,
+				FA2083482064592A0021F3D2 /* Extensions.swift */,
+				9124DCD22099A7A8003F6F4B /* ListPlaces.swift */,
+				698BE972209F81BB007C778E /* NewTrip.swift */,
+				698BE974209F81D2007C778E /* CreatedList.swift */,
+				698BE97E20A0408B007C778E /* Review.swift */,
+				698BE98020A042B8007C778E /* InterestPlaces.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA80BC05208DA2DA006AA7EE /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				FA80BBF7208C271E006AA7EE /* option2.png */,
+				FA80BC12208DAFB8006AA7EE /* stars.png */,
+				FAB25939205FAC2E000C0383 /* GageLogo.png */,
+				FAB25933205FABDB000C0383 /* portland.png */,
+				FAB25934205FABDB000C0383 /* seattle.png */,
+				FA80BC01208DA179006AA7EE /* bar.png */,
+				FAB25935205FABDB000C0383 /* tacoma.png */,
+				FA80BBF5208C2712006AA7EE /* option1.png */,
+				FA85C79D2071E14A00A774F6 /* pike.png */,
+				FA8D568E2078A5CF00992294 /* organizew.png */,
+				FA80BC06208DA2E6006AA7EE /* labelbar.png */,
+				FA8D56902078A70F00992294 /* organizeandplan.png */,
+				FA8D568C2078A5BC00992294 /* Map View.png */,
+				FA85C7A12071E16000A774F6 /* spaceNeedle.png */,
+				FA80BC07208DA2E6006AA7EE /* chihuly.png */,
+				FA80BC08208DA2E9006AA7EE /* sam.png */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		FAB8130A2078457D00E01E81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17FC2F861E258FC500174015 /* Assets.xcassets */,
+				FA80BC05208DA2DA006AA7EE /* pictures */,
+				9124DCD0209992AF003F6F4B /* UserDetailTableViewCell.swift */,
+				9137A32E20986A700026AA7D /* ReviewTableViewCell.swift */,
+				9137A32C209864DA0026AA7D /* ListTableViewCell.swift */,
+				FAB8130C2078457D00E01E81 /* MenuBar.swift */,
+				FAB8130D2078457D00E01E81 /* Cell.swift */,
+				FAB813112078457D00E01E81 /* MenuCell.swift */,
+				FAB813122078457D00E01E81 /* PlaceCell.swift */,
+				69ED008D209F7B7C00730677 /* NavigationViewController.swift */,
+				17FC2F941E2590D800174015 /* MFAViewController.xib */,
+				17FC2F831E258FC500174015 /* Main.storyboard */,
+				17FC2F881E258FC500174015 /* LaunchScreen.storyboard */,
+				698BE97A20A0025E007C778E /* InterestTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17FC2F7B1E258FC500174015 /* CognitoYourUserPoolsSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FC2F8E1E258FC500174015 /* Build configuration list for PBXNativeTarget "CognitoYourUserPoolsSample" */;
+			buildPhases = (
+				10832229DD1170C0D2748859 /* [CP] Check Pods Manifest.lock */,
+				17FC2F781E258FC500174015 /* Sources */,
+				17FC2F791E258FC500174015 /* Frameworks */,
+				17FC2F7A1E258FC500174015 /* Resources */,
+				3234F040164043F3F35501F2 /* [CP] Embed Pods Frameworks */,
+				7F4866FA07E88D5BB14EFB9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CognitoYourUserPoolsSample;
+			productName = CognitoYourUserPoolsSample;
+			productReference = 17FC2F7C1E258FC500174015 /* CognitoYourUserPoolsSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17FC2F741E258FC500174015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dubal, Rohan";
+				TargetAttributes = {
+					17FC2F7B1E258FC500174015 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D4VUX96KKD;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 17FC2F771E258FC500174015 /* Build configuration list for PBXProject "CognitoYourUserPoolsSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17FC2F731E258FC500174015;
+			productRefGroup = 17FC2F7D1E258FC500174015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17FC2F7B1E258FC500174015 /* CognitoYourUserPoolsSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FC2F7A1E258FC500174015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA80BBF8208C2723006AA7EE /* option2.png in Resources */,
+				17FC2F8A1E258FC500174015 /* LaunchScreen.storyboard in Resources */,
+				FA80BBF6208C2718006AA7EE /* option1.png in Resources */,
+				FA8D568D2078A5BD00992294 /* Map View.png in Resources */,
+				FAB25936205FABDC000C0383 /* portland.png in Resources */,
+				FAB25938205FABDC000C0383 /* tacoma.png in Resources */,
+				FA8D568F2078A5D500992294 /* organizew.png in Resources */,
+				FA85C7A22071E16100A774F6 /* spaceNeedle.png in Resources */,
+				17FC2F871E258FC500174015 /* Assets.xcassets in Resources */,
+				FA8D56912078A71600992294 /* organizeandplan.png in Resources */,
+				FA80BC02208DA17B006AA7EE /* bar.png in Resources */,
+				17FC2F921E25908D00174015 /* CognitoLogo.png in Resources */,
+				FAB2593A205FAC35000C0383 /* GageLogo.png in Resources */,
+				9137A32B2098632F0026AA7D /* Fonts in Resources */,
+				FA80BC13208DAFB8006AA7EE /* stars.png in Resources */,
+				FA85C79E2071E14B00A774F6 /* pike.png in Resources */,
+				17FC2F851E258FC500174015 /* Main.storyboard in Resources */,
+				17FC2F951E2590D800174015 /* MFAViewController.xib in Resources */,
+				FAB25937205FABDC000C0383 /* seattle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10832229DD1170C0D2748859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CognitoYourUserPoolsSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3234F040164043F3F35501F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CognitoYourUserPoolsSample/Pods-CognitoYourUserPoolsSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoAuth/AWSCognitoAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CognitoYourUserPoolsSample/Pods-CognitoYourUserPoolsSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4866FA07E88D5BB14EFB9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CognitoYourUserPoolsSample/Pods-CognitoYourUserPoolsSample-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CognitoYourUserPoolsSample/Pods-CognitoYourUserPoolsSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17FC2F781E258FC500174015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB813062078453500E01E81 /* User.swift in Sources */,
+				9137A32D209864DA0026AA7D /* ListTableViewCell.swift in Sources */,
+				FAB8131A2078457E00E01E81 /* MenuCell.swift in Sources */,
+				FAB2593C205FADE5000C0383 /* MapController+extension.swift in Sources */,
+				9124DCD1209992AF003F6F4B /* UserDetailTableViewCell.swift in Sources */,
+				FA20835B206474BB0021F3D2 /* GAGETripPlannerApiClient.swift in Sources */,
+				FA20834E206459450021F3D2 /* HomeController.swift in Sources */,
+				9137A32F20986A700026AA7D /* ReviewTableViewCell.swift in Sources */,
+				FAB813162078457E00E01E81 /* Cell.swift in Sources */,
+				698BE97D20A002AB007C778E /* InterestViewController.swift in Sources */,
+				698BE97B20A0025E007C778E /* InterestTableViewCell.swift in Sources */,
+				FAB813082078453500E01E81 /* Itinerary.swift in Sources */,
+				FAB813152078457E00E01E81 /* MenuBar.swift in Sources */,
+				FA20835C206474BB0021F3D2 /* Empty.swift in Sources */,
+				698BE977209FC4CA007C778E /* OrganizePlanViewController.swift in Sources */,
+				69ED008E209F7B7C00730677 /* NavigationViewController.swift in Sources */,
+				17FC2FA31E25A5D000174015 /* ConfirmForgotPasswordViewController.swift in Sources */,
+				17FC2FA11E25A25900174015 /* ForgotPasswordViewController.swift in Sources */,
+				69F30D02209C2730002665B7 /* ListViewController.swift in Sources */,
+				17FC2F9D1E259E5D00174015 /* SignUpViewController.swift in Sources */,
+				FAB8131B2078457E00E01E81 /* PlaceCell.swift in Sources */,
+				FA20835620645B820021F3D2 /* Account+extension.swift in Sources */,
+				17FC2F9F1E259F3200174015 /* ConfirmSignUpViewController.swift in Sources */,
+				17FC2F9B1E259E0500174015 /* Constants.swift in Sources */,
+				17FC2F991E25940900174015 /* SignInViewController.swift in Sources */,
+				FAB2593E205FADF4000C0383 /* MapController.swift in Sources */,
+				17FC2F971E25928900174015 /* MFAViewController.swift in Sources */,
+				17FC2FA71E25A9A200174015 /* DevicesDetailTableViewController.swift in Sources */,
+				FA2083502064596B0021F3D2 /* AccountController.swift in Sources */,
+				698BE975209F81D2007C778E /* CreatedList.swift in Sources */,
+				17FC2F801E258FC500174015 /* AppDelegate.swift in Sources */,
+				698BE98120A042B8007C778E /* InterestPlaces.swift in Sources */,
+				17FC2FA51E25A77600174015 /* UserDetailTableViewController.swift in Sources */,
+				FA80BC04208DA2BF006AA7EE /* ReviewViewController.swift in Sources */,
+				698BE97F20A0408B007C778E /* Review.swift in Sources */,
+				FAB813072078453500E01E81 /* Place.swift in Sources */,
+				698BE973209F81BB007C778E /* NewTrip.swift in Sources */,
+				FA20834C2064592A0021F3D2 /* Extensions.swift in Sources */,
+				9124DCD32099A7A8003F6F4B /* ListPlaces.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17FC2F831E258FC500174015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17FC2F841E258FC500174015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17FC2F881E258FC500174015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17FC2F891E258FC500174015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17FC2F8C1E258FC500174015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17FC2F8D1E258FC500174015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17FC2F8F1E258FC500174015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480919D75A1E3B70A358631F /* Pods-CognitoYourUserPoolsSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D4VUX96KKD;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = CognitoYourUserPoolsSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.CognitoYourUserPoolsSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CognitoYourUserPoolsSample/Bridging_Header.h;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		17FC2F901E258FC500174015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1723F26766EBE8129706C034 /* Pods-CognitoYourUserPoolsSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D4VUX96KKD;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = CognitoYourUserPoolsSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.CognitoYourUserPoolsSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CognitoYourUserPoolsSample/Bridging_Header.h;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FC2F771E258FC500174015 /* Build configuration list for PBXProject "CognitoYourUserPoolsSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FC2F8C1E258FC500174015 /* Debug */,
+				17FC2F8D1E258FC500174015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FC2F8E1E258FC500174015 /* Build configuration list for PBXNativeTarget "CognitoYourUserPoolsSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FC2F8F1E258FC500174015 /* Debug */,
+				17FC2F901E258FC500174015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17FC2F741E258FC500174015 /* Project object */;
+}

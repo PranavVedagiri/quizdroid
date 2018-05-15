@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+use_frameworks!
+
+def aws_pods
+    pod 'AWSCognito', '~> 2.6.6'
+    pod 'AWSCore'
+    pod 'AWSCognitoIdentityProvider'
+    pod 'AWSDynamoDB'
+    pod 'AWSS3', '~> 2.6.6'
+    pod 'AWSMobileClient', '~> 2.6.6'
+    pod 'AWSUserPoolsSignIn', '~> 2.6.6'
+    pod 'AWSAuthUI', '~> 2.6.6'
+    pod 'AWSMobileClient', '~> 2.6.6'
+    pod 'AWSCognitoAuth'
+    pod 'AWSAPIGateway'
+    pod 'AlamofireImage', '~> 3.3'
+end
+
+def google_map_pods
+    pod 'GoogleMaps', '= 2.3.0'
+    pod 'GooglePlaces', '= 2.3.0'
+    pod 'GooglePlacePicker', '= 2.3.0'
+end
+
+target 'CognitoYourUserPoolsSample' do
+    # Pods for Gage
+    aws_pods
+    google_map_pods
+    
+    pod 'SwiftyJSON'
+    pod 'Alamofire'
+    pod 'Charts'
+    pod 'Cosmos', '~> 16.0'
+
+    #  pod 'TRON', '~> 4.0'
+    
+    
+end

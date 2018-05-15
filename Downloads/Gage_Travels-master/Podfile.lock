@@ -1,0 +1,90 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - AWSAPIGateway (2.6.18):
+    - AWSCore (= 2.6.18)
+  - AWSAuthCore (2.6.18):
+    - AWSCore (= 2.6.18)
+  - AWSAuthUI (2.6.18):
+    - AWSAuthCore (= 2.6.18)
+    - AWSCore (= 2.6.18)
+  - AWSCognito (2.6.18):
+    - AWSCore (= 2.6.18)
+  - AWSCognitoAuth (2.6.18):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+  - AWSCognitoIdentityProvider (2.6.18):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.18)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.18)
+  - AWSDynamoDB (2.6.18):
+    - AWSCore (= 2.6.18)
+  - AWSMobileClient (2.6.18):
+    - AWSAuthCore (= 2.6.18)
+  - AWSS3 (2.6.18):
+    - AWSCore (= 2.6.18)
+  - AWSUserPoolsSignIn (2.6.18):
+    - AWSAuthCore (= 2.6.18)
+    - AWSCognitoIdentityProvider (= 2.6.18)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Cosmos (16.0.0)
+  - GoogleMaps (2.3.0):
+    - GoogleMaps/Maps (= 2.3.0)
+  - GoogleMaps/Base (2.3.0)
+  - GoogleMaps/Maps (2.3.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.0):
+    - GoogleMaps (= 2.3.0)
+    - GooglePlaces (= 2.3.0)
+  - GooglePlaces (2.3.0):
+    - GoogleMaps/Base (= 2.3.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 3.3)
+  - AWSAPIGateway
+  - AWSAuthUI (~> 2.6.6)
+  - AWSCognito (~> 2.6.6)
+  - AWSCognitoAuth
+  - AWSCognitoIdentityProvider
+  - AWSCore
+  - AWSDynamoDB
+  - AWSMobileClient (~> 2.6.6)
+  - AWSS3 (~> 2.6.6)
+  - AWSUserPoolsSignIn (~> 2.6.6)
+  - Charts
+  - Cosmos (~> 16.0)
+  - GoogleMaps (= 2.3.0)
+  - GooglePlacePicker (= 2.3.0)
+  - GooglePlaces (= 2.3.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  AWSAPIGateway: fbde9d6b4959e81b55f4097e7b9ba44e36970a9b
+  AWSAuthCore: 32c8b728338fb54b0b1723f4be5be3777d5ca0ae
+  AWSAuthUI: da2640b3db18c37529a676efe6eee4df0a2a5fa9
+  AWSCognito: aab248bf535c2f33240d3e952d0af88332d36af7
+  AWSCognitoAuth: 850d5e4e15a940f6638b95649e6740c62b7e5d0a
+  AWSCognitoIdentityProvider: 5bcd75b23058acae6cb3e8c930a32ace40435ab2
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 5594f02730a821907d155ac28e96593d1caa6f64
+  AWSDynamoDB: 8071c225bb409a3ff5b2ca3e8e64aa41ef24d806
+  AWSMobileClient: 7e6786ec708698aa3b25f12376464db1820afaed
+  AWSS3: 659953f91bf85f62b6290625e86c45e3b9dd8dee
+  AWSUserPoolsSignIn: 1e2b1bdb841802b697be489acd5050cc6b6d2301
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  GoogleMaps: 340a6a0bebd17c2db8abcd3921976c7c53c86cb8
+  GooglePlacePicker: 80a6719aa4d06c63524a231d0ecd8f87e87d98c2
+  GooglePlaces: 74d322c74184ea4576184089b496d291cf0dcd38
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: f5e6c46137f55d6f6e5f0f4b2a4b3b93dd069470
+
+COCOAPODS: 1.4.0
